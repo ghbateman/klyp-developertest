@@ -1,0 +1,99 @@
+/* Tags */
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin-top: 6em;
+}
+
+table {
+  width: 60%;
+}
+
+th, td {
+  width: 33%;
+  border: 1px solid;
+  text-align: center;
+}
+
+/* Classes */
+.btn {
+  margin-left: 1em;
+}
+
+.body_colour_red {
+  background-color: rgb(255,0,0);
+}
+
+.body_colour_green {
+  background-color: rgb(0,128,0);
+  color: #fff;
+}
+
+.body_colour_blue {
+  background-color: rgb(0,0,255);
+  color: #fff;
+}
+
+.body_colour_yellow {
+  background-color: rgb(255,255,0);
+}
+
+.row {
+  margin-top: 3em;
+}
+
+.banner, .footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #f70;
+  height: 3em;
+  line-height: 3em;
+  font-size: 1.5em;
+}
+
+.banner {
+  top: 0;
+  border-bottom: 1px solid;
+}
+
+.footer {
+  bottom: 0;
+  border-top: 1px solid;
+}
+
+.left {
+  float: left;
+  margin-left: 1em;
+}
+
+.right {
+  float: right;
+  margin-right: 1em;
+}
+
+a.klyp_logo {
+  text-decoration: none !important;
+  color: #f70 !important;
+}
+
+a.klyp_logo:hover {
+  text-decoration: none;
+  background-color: #f70;
+  color: #fff !important;
+  border-radius: 5px;
+  padding: 2px 0px;
+}
+
+/* Media Points */
+@media only screen and (min-width: 1px) and (max-width: 575px) {
+  .banner, .footer {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 427px) {
+  .btn {
+    margin-left: unset;
+  }
+}
